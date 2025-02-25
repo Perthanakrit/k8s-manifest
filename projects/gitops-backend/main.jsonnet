@@ -9,7 +9,7 @@ function(
   local appName = 'gitops-backend';
   local mapEnvVars = env.getMapEnv(namespace);
   local mapSecretVars = secret.getMapSecret(namespace);
-  local domain = 'api-4.iamgraph.live';
+  local domain = 'api-group-4.iamgraph.live';
 
   [
     {
