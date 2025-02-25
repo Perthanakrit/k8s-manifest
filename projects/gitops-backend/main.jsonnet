@@ -6,7 +6,7 @@ local vars = import 'vars/vars.json';
 function(
   namespace='app-prod-4',
 )
-  local appName = 'gitops-demo-backend';
+  local appName = 'gitops-backend';
   local mapEnvVars = env.getMapEnv(namespace);
   local mapSecretVars = secret.getMapSecret(namespace);
   local domain = 'api-4.iamgraph.live';
